@@ -1,3 +1,17 @@
+EXP.NO:2D
+DATE:04-08-26
+                              LEAP YEAR 
+Aim:
+To check whether a given year is a leap year or not.
+    
+Algorithm:
+1.	Read the year from the user.
+2.	Check if the year is divisible by 400.
+3.	If not, check if it is divisible by 100.
+4.	Otherwise, check if it is divisible by 4.
+5.	Display whether the year is a leap year or not.
+    
+Code:
 import java.util.Scanner;
 public class LeapYear {
     public static void main(String[] args) {
@@ -22,3 +36,10 @@ public class LeapYear {
         s.close();
     }
 }
+
+Output:
+Enter any year: 2024
+Year 2024 is a leap year
+    
+Result:
+Thus, the program successfully checks whether the given year is a leap year or not.
