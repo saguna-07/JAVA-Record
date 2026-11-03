@@ -1,5 +1,5 @@
 EXP NO:10(b)
-DATE:13-09-26
+DATE:15-09-26
                                        THREAD PRIORITY
 Aim:
 To write and execute a Java program to demonstrate thread priorities using the `Thread` class and the methods `setPriority()` and `getPriority()`.
