@@ -1,5 +1,5 @@
-EXP.NO:12A
-DATE:13-10-2
+EXP.NO:12(a)
+DATE:13-10-26
                                    GRID LAYOUT
 Aim:
 To write a Java Applet program to create ten buttons using `GridLayout` arranged in 5 rows and 2 columns.
@@ -52,11 +52,5 @@ public Insets getInsets()
 {
 return new Insets(20,20,20,20);
 }}
-Output:
- A     B
- C     D
- E     F
- G     H
- I     J
   
 Result: Thus, the Java Applet program to create ten buttons using `GridLayout` with 5 rows and 2 columns was executed successfully.
