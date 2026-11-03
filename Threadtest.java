@@ -16,7 +16,7 @@ Algorithm:
 9. Print the main thread exit message.
 10. Stop the program.
 
-CODE:
+Code:
 import java.util.*,
 class A extends Thread {
     public void run() {
@@ -74,7 +74,7 @@ public class Threadtest {
     }
 }
 
-OUTPUT:
+Output:
 Start thread A
 exit from main thread
 from thread A i=1
@@ -92,10 +92,6 @@ thread C = 2
 thread C = 3
 thread C = 4
 thread C = 5
-```
 
-Note: The output order may vary because all three threads execute concurrently.
-
-## Result
-
+Result:
 Thus, the Java program was executed successfully, demonstrating multithreading using the `Thread` class and the methods `start()`, `yield()`, and `sleep()`.
