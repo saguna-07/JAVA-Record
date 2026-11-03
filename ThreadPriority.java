@@ -1,3 +1,23 @@
+EXP NO:10(b)
+DATE:13-09-26
+                                       THREAD PRIORITY
+Aim:
+To write and execute a Java program to demonstrate thread priorities using the `Thread` class and the methods `setPriority()` and `getPriority()`.
+
+Algorithm:
+1. Start the program.
+2. Create three classes A, B, and C by extending the `Thread` class.
+3. Override the `run()` method in each class.
+4. Print thread starting messages and execute loops from 1 to 4.
+5. Create objects of classes A, B, and C in the main method.
+6. Set the priority of thread C to `Thread.MAX_PRIORITY`.
+7. Set the priority of thread B to one greater than thread A's priority.
+8. Set the priority of thread A to `Thread.MIN_PRIORITY`.
+9. Start all three threads using the `start()` method.
+10. Display the main thread ending message.
+11. Stop the program.
+
+Code:
 import java.io.*;
 class A extends Thread
 {
@@ -51,3 +71,30 @@ threadC.start();
 System.out.println("end of main thread");
 }
 }
+
+Output:
+start thread A
+Thread A started
+start thread B
+from thread A i=1
+from thread A i=2
+from thread A i=3
+from thread A i=4
+exit from A
+Thread B started
+start thread C
+from thread B j=1
+from thread B j=2
+from thread B j=3
+from thread B j=4
+exit from B
+thread C started
+thread c =1
+thread c =2
+thread c =3
+thread c =4
+exit from c
+end of main thread
+
+Result:
+Thus, the Java program was executed successfully to demonstrate thread priorities using `setPriority()`, `getPriority()`, `MIN_PRIORITY`, and `MAX_PRIORITY`.
