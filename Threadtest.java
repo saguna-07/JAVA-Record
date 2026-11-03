@@ -1,5 +1,5 @@
 EXP NO:10(a)
-DATE:13-09-26
+DATE:15-09-26
                                     SIMPLE THREAD
 Aim:
 To write a Java program to demonstrate multithreading using the `Thread` class and methods like `yield()` and `sleep()`.
